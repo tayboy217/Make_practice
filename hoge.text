@@ -1,0 +1,11 @@
+makeコマンドについて学習する
+記述方法
+実行原理
+適当なリポジトリで echo "hoge"を実行するmakeコマンドを追加して動かしてみる
+echo "hoge" した後に ls -al するmakeコマンドを追加してみる
+
+
+makeは作業を自動化するためのツール
+・Makefileの中で、helloとbyeはターゲットと呼ばる
+・makeコマンドを実行すると、Makefile中の実行されるコマンド「echo ‘Hello World’」と、コマンドの結果「Hello World」が表示される
+・＠をつけるとecho文が表示されなくなる
